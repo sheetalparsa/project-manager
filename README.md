@@ -1,6 +1,6 @@
 This is a React based Project
 
-  First Command to run
+  After clonning the project first run below command
 
 ## `yarn install`
 
