@@ -4,7 +4,7 @@ This is a React based Project
 
 ## `yarn install`
 
-  then run
+  then run below command to start the project
 
 ## `yarn start`
 
