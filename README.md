@@ -1,10 +1,10 @@
 This is a React based Project
 
-First Command to run
+  First Command to run
 
-##`yarn install`
+## `yarn install`
 
-then run
+  then run
 
 ## `yarn start`
 
