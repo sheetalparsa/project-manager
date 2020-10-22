@@ -66,7 +66,7 @@ export default class extends React.Component {
     let inputValues = {
       version: document.getElementById("version").value,
       progress: progress,
-      status: progress === 100  ? "RELEASED" : (progress >= 0 && progress <= 100) ? "UNRELEASED" :"IN PROGRESS", 
+      status: progress === 100  ? "RELEASED" : (progress > 0 && progress < 100) ? "UNRELEASED" :"IN PROGRESS", 
       start_date: document.getElementById("s_date").value,
       release_date: document.getElementById("r_date").value,
       description: document.getElementById("des").value,
