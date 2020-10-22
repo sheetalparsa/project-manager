@@ -116,7 +116,7 @@ export default class extends React.Component {
                     </td>
                     <td contentEditable={item.isEditActive}>{item.start_date ? item.start_date : "--"}</td>
                     <td contentEditable={item.isEditActive}>{item.release_date ? item.release_date : "--"}</td>
-                    <td contentEditable={item.isEditActive}>{item.description ? item.description : "--"}</td>
+                    <td contentEditable={item.isEditActive} className="des">{item.description ? item.description : "--"}</td>
                     <td>
                       {
                         item.isEditActive ?
